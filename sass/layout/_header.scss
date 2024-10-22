@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    .header-wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
+
+        .header-nav {
+            display: flex;
+            align-items: center;
+
+            &-list {
+                display: flex;
+                gap: 30px;
+
+                .nav-list-item {
+                    list-style: none;
+
+                    .nav-list-link {
+                        text-decoration: none;
+                        color: $color-white;
+                        font-family: GraphikR;
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 24px;
+                        letter-spacing: 0.20000000298023224px;
+                        text-align: center;
+
+                        &:hover {
+                            color: $color-blue;
+                        }
+                    }
+                }
+            }
+
+            .header-nav-button {
+                margin-left: 173px;
+            }
+        }
+    }
+}
