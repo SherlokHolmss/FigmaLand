@@ -486,4 +486,97 @@ button:hover {
   height: 52px;
   display: block;
   margin: 0 auto;
+}
+
+.section-partners {
+  padding: 60px;
+}
+.section-partners-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  margin-bottom: 44px;
+  gap: 10px;
+}
+.section-partners-wrap-title {
+  font-family: GraphikL;
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 62px;
+  letter-spacing: 0.2px;
+  text-align: left;
+}
+.section-partners-wrap-description {
+  font-family: GraphikL;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  max-width: 591px;
+}
+.section-partners-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 74px;
+}
+.section-partners-button {
+  width: 176px;
+  height: 52px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 50px;
+}
+
+.section-testimonials {
+  padding: 60px;
+  margin-bottom: 100px;
+}
+.section-testimonials-title {
+  font-family: GraphikL;
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 62px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.section-testimonials-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 23px;
+}
+.section-testimonials-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }/*# sourceMappingURL=main.css.map */
