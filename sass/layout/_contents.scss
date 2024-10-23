@@ -1,0 +1,111 @@
+.section-contents {
+    padding: 60px;
+    margin-bottom: 150px;
+    &-wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        margin: 0 auto;
+        margin-bottom: 44px;
+
+        &-title {
+            font-family: Graphikl;
+            font-size: 52px;
+            font-weight: 400;
+            line-height: 62px;
+            letter-spacing: 0.2px;
+            text-align: left;
+
+        }
+
+        &-description {
+            font-family: Graphikl;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 30px;
+            letter-spacing: 0.2px;
+            text-align: center;
+            max-width: 571px;
+        }
+    }
+
+    &-list {
+        display: flex;
+        gap: 33px;
+        justify-content: center;
+        align-items: center;
+
+        &-item {
+            width: 476px;
+            height: 624px;
+            border-radius: 10px;
+            background-color: $color-white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            &-button {
+                width: 157px;
+                height: 52px;
+                color: $color-white;
+                background-color: $color-blue;
+                font-family: GraphikR;
+                font-size: 17px;
+                font-weight: 500;
+                line-height: 25px;
+                letter-spacing: 0.2px;
+                text-align: center;
+                margin-top: 30px;
+                margin-bottom: 30px;
+                &:hover {
+                    background-color: $color-white;
+                    color: $color-black;
+                }
+                &-first{
+                    margin-top: 57px;
+                    margin-bottom: 0px;
+                }
+            }
+
+            &-img {
+                border-radius: 14px;
+                &-first{
+                    margin-top: 57px;
+                }
+            }
+
+            &-wrap {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                gap: 30px;
+
+                &-title {
+                    font-family: GraphikR;
+                    font-size: 20px;
+                    font-weight: 500;
+                    line-height: 30px;
+                    letter-spacing: 0.1px;
+                    text-align: center;
+                    color: $color-black;
+                }
+
+                &-description {
+                    font-family: GraphikL;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: 0.2px;
+                    text-align: center;
+                    color: $color-black;
+                    max-width: 268px;
+
+                }
+            }
+        }
+    }
+}
