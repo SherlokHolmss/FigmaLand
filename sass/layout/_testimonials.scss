@@ -27,31 +27,38 @@
         flex-direction: column;
         width: 430px;
         height: 652px;
-        gap: 20px;
     }
+
     &-list {
         display: flex;
         flex-wrap: wrap;
+    }
 
+    &-description {
+
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+        text-align: left;
 
     }
+
     &-item {
-        width:430px;
+        width: 430px;
         height: 328px;
         padding: 40px;
-
         border-radius: 10px;
-        border: 1px;
+        border: 1px solid rgba(222, 222, 222, 1);
+        margin-top: 30px;
     }
+
     &-item-wrap {
         display: flex;
         gap: 13px;
         width: 162px;
         height: 50px;
-    }
-
-    &-title-wrap {
-        display: flex;
+        margin-bottom: 31px;
     }
 
     &-img {
@@ -59,11 +66,17 @@
         height: 50px;
     }
 
+    &-title-wrap {
+        margin-left: 13px;
+    }
+
     &-name {
         font-size: 16px;
         font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.2px;
+        width: 137px;
+
     }
 
     &-role {

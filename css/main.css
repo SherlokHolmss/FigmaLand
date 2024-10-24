@@ -578,7 +578,6 @@ button:hover {
           flex-direction: column;
   width: 430px;
   height: 652px;
-  gap: 20px;
 }
 .section-testimonials-list {
   display: -webkit-box;
@@ -587,12 +586,20 @@ button:hover {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
+.section-testimonials-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  text-align: left;
+}
 .section-testimonials-item {
   width: 430px;
   height: 328px;
   padding: 40px;
   border-radius: 10px;
-  border: 1px;
+  border: 1px solid rgb(222, 222, 222);
+  margin-top: 30px;
 }
 .section-testimonials-item-wrap {
   display: -webkit-box;
@@ -601,25 +608,60 @@ button:hover {
   gap: 13px;
   width: 162px;
   height: 50px;
-}
-.section-testimonials-title-wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  margin-bottom: 31px;
 }
 .section-testimonials-img {
   width: 50px;
   height: 50px;
+}
+.section-testimonials-title-wrap {
+  margin-left: 13px;
 }
 .section-testimonials-name {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.2px;
+  width: 137px;
 }
 .section-testimonials-role {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.1px;
+}
+
+.section-action-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgb(52, 52, 52);
+  border-radius: 33px;
+  gap: 88px;
+}
+.section-action-wrap-description {
+  margin: 0 auto;
+  margin: 78px 0px 61px 61px;
+}
+.section-action-wrap-description-title {
+  font-family: GraphikL;
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 62px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  max-width: 479px;
+  margin-bottom: 37px;
+}
+.section-action-wrap-description-button {
+  width: 232px;
+  height: 52px;
+  background-color: rgb(68, 82, 254);
+  color: rgb(255, 255, 255);
 }/*# sourceMappingURL=main.css.map */
