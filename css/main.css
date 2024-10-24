@@ -345,20 +345,18 @@ button:hover {
   width: 476px;
   height: 624px;
   border-radius: 10px;
+  padding: 50px 48px 40px 48px;
   background-color: rgb(255, 255, 255);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .section-contents-list-item-button {
   width: 157px;
@@ -377,10 +375,6 @@ button:hover {
 .section-contents-list-item-button:hover {
   background-color: rgb(255, 255, 255);
   color: rgb(24, 24, 24);
-}
-.section-contents-list-item-button-first {
-  margin-top: 57px;
-  margin-bottom: 0px;
 }
 .section-contents-list-item-img {
   border-radius: 14px;
@@ -564,6 +558,9 @@ button:hover {
   display: -ms-flexbox;
   display: flex;
   gap: 23px;
+  width: 883px;
+  height: 652px;
+  margin: 0 auto;
 }
 .section-testimonials-column {
   display: -webkit-box;
@@ -579,4 +576,50 @@ button:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  width: 430px;
+  height: 652px;
+  gap: 20px;
+}
+.section-testimonials-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.section-testimonials-item {
+  width: 430px;
+  height: 328px;
+  padding: 40px;
+  border-radius: 10px;
+  border: 1px;
+}
+.section-testimonials-item-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 13px;
+  width: 162px;
+  height: 50px;
+}
+.section-testimonials-title-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.section-testimonials-img {
+  width: 50px;
+  height: 50px;
+}
+.section-testimonials-name {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+.section-testimonials-role {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.1px;
 }/*# sourceMappingURL=main.css.map */
