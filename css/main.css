@@ -533,6 +533,9 @@ button:hover {
           align-items: center;
   gap: 74px;
 }
+.section-partners-list-item-link-svg {
+  fill: currentColor;
+}
 .section-partners-button {
   width: 176px;
   height: 52px;

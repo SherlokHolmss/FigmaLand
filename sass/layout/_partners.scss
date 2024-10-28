@@ -1,6 +1,6 @@
 .section-partners {
     padding: 60px;
-
+    
     &-wrap {
         display: flex;
         flex-direction: column;
@@ -35,6 +35,9 @@
         justify-content: center;
         align-items: center;
         gap: 74px;
+        &-item-link-svg{
+            fill: currentColor;
+        }
     }
 
     &-button {
