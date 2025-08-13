@@ -1,10 +1,12 @@
 .footer {
     margin-top: 100px;
     margin-bottom: 107px;
+
     &-wrap {
-        
+
         display: flex;
         justify-content: center;
+
         &-list {
             width: 513px;
             height: 223px;
@@ -15,6 +17,13 @@
                 display: flex;
                 flex-direction: column;
                 gap: 28px;
+
+                &-link {
+                    &:hover {
+                        transition: 0.5s;
+                        color: $color-blue;
+                    }
+                }
 
                 &-title {
                     font-size: 16px;
@@ -27,18 +36,27 @@
 
             }
         }
-        &-contacts{
+
+        &-contacts {
             margin-left: 200px;
-            &-adress{
+
+            &-adress {
                 display: flex;
                 flex-direction: column;
                 gap: 20px;
-                &-list{
+
+                &-list {
                     padding: 20px 0 20px 0;
                     display: flex;
                     gap: 24px;
-                    &-item-link-svg{
+
+                    &-item-link-svg {
                         fill: $color-white;
+
+                        &:hover {
+                            transition: 0.5s;
+                            fill: $color-blue;
+                        }
                     }
                 }
             }

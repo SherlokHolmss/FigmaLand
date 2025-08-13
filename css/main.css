@@ -61,8 +61,8 @@ button {
   cursor: pointer;
   font-size: 16px;
   font-weight: 400;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 button:hover {
   background-color: rgb(68, 82, 254);
@@ -120,6 +120,8 @@ button:hover {
 }
 .header .header-wrap .header-nav-list .nav-list-item .nav-list-link:hover {
   color: rgb(68, 82, 254);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 .header .header-wrap .header-nav .header-nav-button {
   margin-left: 173px;
@@ -376,6 +378,8 @@ button:hover {
 .section-contents-list-item-button:hover {
   background-color: rgb(255, 255, 255);
   color: rgb(24, 24, 24);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 .section-contents-list-item-img {
   border-radius: 14px;
@@ -534,7 +538,7 @@ button:hover {
   gap: 74px;
 }
 .section-partners-list-item-link-svg {
-  fill: currentColor;
+  fill: 0;
 }
 .section-partners-button {
   width: 176px;
@@ -542,6 +546,10 @@ button:hover {
   margin: 0 auto;
   display: block;
   margin-top: 50px;
+}
+
+.svg-gradient {
+  fill: rgb(68, 82, 254);
 }
 
 .section-testimonials {
@@ -668,6 +676,12 @@ button:hover {
   height: 52px;
   background-color: rgb(68, 82, 254);
   color: rgb(255, 255, 255);
+  border: none;
+}
+.section-action-wrap-description-button:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border: 1px solid rgb(255, 255, 255);
 }
 
 .footer {
@@ -702,6 +716,11 @@ button:hover {
           flex-direction: column;
   gap: 28px;
 }
+.footer-wrap-list-item-link:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: rgb(68, 82, 254);
+}
 .footer-wrap-list-item-title {
   font-size: 16px;
   font-weight: 500;
@@ -732,4 +751,9 @@ button:hover {
 }
 .footer-wrap-contacts-adress-list-item-link-svg {
   fill: rgb(255, 255, 255);
+}
+.footer-wrap-contacts-adress-list-item-link-svg:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  fill: rgb(68, 82, 254);
 }/*# sourceMappingURL=main.css.map */

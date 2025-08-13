@@ -7,10 +7,12 @@
         background-color: rgba(52, 52, 52, 1);
         border-radius: 33px;
         gap: 88px;
+
         &-description {
-            margin:  0 auto;
+            margin: 0 auto;
             margin: 78px 0px 61px 61px;
-            &-title{
+
+            &-title {
                 font-family: GraphikL;
                 font-size: 52px;
                 font-weight: 400;
@@ -20,11 +22,18 @@
                 max-width: 479px;
                 margin-bottom: 37px;
             }
+
             &-button {
                 width: 232px;
                 height: 52px;
                 background-color: rgba(68, 82, 254, 1);
                 color: $color-white;
+                border: none;
+
+                &:hover {
+                    transition: 0.5s;
+                    border: 1px solid $color-white;
+                }
             }
         }
     }

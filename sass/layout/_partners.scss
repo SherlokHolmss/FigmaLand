@@ -36,7 +36,7 @@
         align-items: center;
         gap: 74px;
         &-item-link-svg{
-            fill: currentColor;
+            fill: blue($color: #000000);
         }
     }
 
@@ -47,4 +47,8 @@
         display: block;
         margin-top: 50px;
     }
+}
+
+.svg-gradient{
+    fill: $color-blue;
 }
