@@ -537,19 +537,12 @@ button:hover {
           align-items: center;
   gap: 74px;
 }
-.section-partners-list-item-link-svg {
-  fill: 0;
-}
 .section-partners-button {
   width: 176px;
   height: 52px;
   margin: 0 auto;
   display: block;
   margin-top: 50px;
-}
-
-.svg-gradient {
-  fill: rgb(68, 82, 254);
 }
 
 .section-testimonials {
